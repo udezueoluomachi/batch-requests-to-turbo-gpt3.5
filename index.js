@@ -1,9 +1,4 @@
-import {config} from "dotenv";
-import fetch from "node-fetch";
-
-config();
-
-const API_KEY = process.env.API_KEY;
+const API_KEY = "YOUR API KEY HERE";
 
 const requests = [
     {
